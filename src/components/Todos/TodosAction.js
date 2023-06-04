@@ -8,13 +8,14 @@ function TodosActions({
 }) {
   return (
     <div className={styles.todosActionConteiner}>
-      <Button title="Reset Todos" onClick={resetTodos}>
+      <Button title="Reset Todos" onClick={resetTodos} className={styles.reset}>
         <RiRefreshLine />
       </Button>
       <Button
         title="Clear Completed Todos"
         onClick={deleteCompletedTodos}
         disabled={!completedTodosExist}
+        className={styles.clear}
       >
         <RiDeleteBack2Line />
       </Button>
