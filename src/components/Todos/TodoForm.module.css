@@ -1,0 +1,35 @@
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+input::-ms-clear {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.todoFormConteiner {
+  margin-bottom: 30px;
+}
+.todoFormConteiner form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoFormConteiner input {
+  width: 45%;
+  height: 30px;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
